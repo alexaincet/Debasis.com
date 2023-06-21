@@ -18,7 +18,6 @@
         }
 
         #profile-photo {
-            display: block;
             width: 200px;
             height: 200px;
             border-radius: 50%;
@@ -26,6 +25,7 @@
             overflow: hidden;
             background: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            animation: rotate 5s infinite linear;
         }
 
         #profile-photo img {
@@ -33,6 +33,7 @@
             height: 100%;
             object-fit: cover;
         }
+
         @keyframes rotate {
             0% {
                 transform: rotate(0deg);
